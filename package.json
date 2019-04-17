@@ -8,6 +8,9 @@
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm run test'"
   },
+  "engines": {
+    "node": "10.13.0"
+  },
   "author": "Manohar Ganta",
   "license": "ISC",
   "dependencies": {

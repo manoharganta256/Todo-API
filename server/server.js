@@ -33,7 +33,7 @@ app.get('/todos', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Started server on port 3000");
+    console.log(`Server started on port ${port}`);
 });
 
 module.exports =  {
